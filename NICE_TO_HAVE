@@ -1,0 +1,4 @@
+This is the list of suggestions for improvements:
+  - Some logging or monitoring mechanism can be added to trace info and debug logs.
+  - Right now we have 2 endpoint to save right and left datas to H2 database, 
+  we can merge these 2 endpoints to one and get side info directly from user.
