@@ -6,9 +6,10 @@ This is WAES assigment to save and compare Base64 datas with Rest endpoints.
 
 - Provide 2 http endpoints that accepts JSON base64 encoded binary data on both
   endpoints
-  - <"host">/v1/diff/<"ID">/left and <"host">/v1/diff/<"ID">/right
+  - <host'>/v1/diff/<ID'>/left and <host'>/v1/diff/<ID'>/right
   
-- The provided data needs to be diff-ed and the results shall be available on a third end point o <host">/v1/diff/<id"> 
+- The provided data needs to be diff-ed and the results shall be available on a third end point 
+  - <host'>/v1/diff/<id'> 
 
 - The results shall provide the following info in JSON format 
     
@@ -27,8 +28,9 @@ Spring boot, maven, H2 database, Tomcat.
 
 Spring boot-JAVA application:
 
-$ mvn clean install
-
-$ java -jar target/comparator-1.0.jar
-
+```
+$ mvn clean install (to build the project)
+$ java -jar target/comparator-1.0.jar (to run the project)
+$ mvn test (to run the test cases)
+```
 After run the project, you can use POSTMAN for testing.
