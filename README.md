@@ -29,6 +29,7 @@ Spring boot, maven, H2 database, Tomcat.
 Spring boot-JAVA application:
 
 ```
+$ cd comparator
 $ mvn clean install (to build the project)
 $ java -jar target/comparator-1.0.jar (to run the project)
 $ mvn test (to run the test cases)
